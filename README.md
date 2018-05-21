@@ -15,3 +15,5 @@
               10. disk-info.conkyrc
               11. process-cpu-usage.conkyrc
               12. process-ram-usage.conkyrc
+
+Requires screenfetch for release.conkyrc
