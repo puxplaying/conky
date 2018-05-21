@@ -18,6 +18,6 @@
 
 Requires screenfetch for release.conkyrc
 
-More info how to use it: https://forum.manjaro.org/t/conky-thread-show-your-work/2951/182?u=pux
+More info how to use it: https://forum.manjaro.org/t/conky-thread-show-your-work/2951/182
 
-Wallpaper: https://forum.manjaro.org/t/illyria-wallpaper-contest/43345/159?u=pux
+Wallpaper: https://forum.manjaro.org/t/illyria-wallpaper-contest/43345/159
