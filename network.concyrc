@@ -63,9 +63,8 @@ own_window_colour 000000
 gap_x 85
 gap_y -180
 TEXT
-${font Bauhaus:size=13}
-# Signal: ${color1}${wireless_link_qual eno1}%${color} 
-${font PizzaDude Bullets:size=13}O ${font Bauhaus:size=13} Upload: ${color1}${upspeed eno1}${color }
+#${font Bauhaus:size=13}${alignc}Signal: ${color1}${wireless_link_qual eno1}%${color} 
+${voffset 5}${font PizzaDude Bullets:size=13}O ${font Bauhaus:size=13} Upload: ${color1}${upspeed eno1}${color }
 ${offset 40}Total Sent: ${color1}${totalup eno1}${color}
 ${upspeedgraph eno1 18,210 00C6A2 00C6A2}${color}
 ${voffset 10}${font PizzaDude Bullets:size=13}U ${font Bauhaus:size=13} Download: ${color1}${downspeed eno1}${color}
