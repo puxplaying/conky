@@ -66,4 +66,4 @@ gap_y 55
 TEXT
 ${voffset }${offset 20}${font Bauhaus:size=70} ${time %H}${color1}
 ${voffset }${offset 70}${font Bauhaus:size=70}${time %M}${color1}
-${voffset -161}${offset 40}${font Bauhaus:size=16} ${time %A} ${color}${voffset }${offset }${time %d %b }
+${voffset -161}${offset 35}${font Bauhaus:size=16} ${time %A} ${color}${voffset }${offset }${time %d %b }
