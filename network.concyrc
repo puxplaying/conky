@@ -61,7 +61,7 @@ color1 5D7B86 ###Maia Color 2###
 ########
 own_window_colour 000000
 gap_x 85
-gap_y -180
+gap_y -190
 TEXT
 #${font Bauhaus:size=13}${alignc}Signal: ${color1}${wireless_link_qual eno1}%${color} 
 ${voffset 5}${font PizzaDude Bullets:size=13}O ${font Bauhaus:size=13} Upload: ${color1}${upspeed eno1}${color }
