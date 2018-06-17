@@ -60,7 +60,7 @@ color1 5D7B86 ###Maia Color 2###
 # Code #
 ########
 own_window_colour 000000
-gap_x 65
+gap_x 100
 gap_y 220
 TEXT
 ${voffset -20}${color FFFFFF}${font DejaVu Sans Mono:size=2}${execi 130000 screenfetch -L -N  | sed 's/^/\t/' | sed 's/ *$//'}${color}

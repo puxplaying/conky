@@ -60,7 +60,7 @@ color1 5D7B86 ###Maia Color 2###
 # Code #
 ########
 own_window_colour 000000
-gap_x 80
+gap_x 120
 gap_y 170
 TEXT
 ${alignc}${voffset 5}${color}${font Bauhaus:size=13}Nvidia ${execi 130000 nvidia-settings -q gpus | grep '0] (' | cut -d '(' -f 2,2 | sed -e 's/.\{1\}$//'} 

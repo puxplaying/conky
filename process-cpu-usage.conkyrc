@@ -60,7 +60,7 @@ color1 5D7B86 ###Maia Color 2###
 # Code #
 ########
 own_window_colour 000000
-gap_x 245
+gap_x 305
 gap_y 20
 TEXT
 ${font Bauhaus:size=13}

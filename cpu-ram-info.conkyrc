@@ -60,7 +60,7 @@ color1 5D7B86 ###Maia Color 2###
 # Code #
 ########
 own_window_colour 000000
-gap_x 70
+gap_x 120
 gap_y -70
 TEXT
 ${font Bauhaus:size=13}VRAM: ${color1}${exec nvidia-smi --query-gpu=memory.used --format=csv,noheader} / ${exec nvidia-smi --query-gpu=memory.total --format=csv,noheader}${color}

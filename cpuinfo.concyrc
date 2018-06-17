@@ -60,7 +60,7 @@ color1 5D7B86 ###Maia Color 2###
 # Code #
 ########
 own_window_colour 000000
-gap_x 70
+gap_x 106
 gap_y 295
 TEXT
 ${font Bauhaus:size=13} ${color }${execi 130000 cat /proc/cpuinfo | grep 'model name' | cut -c 14-19 | uniq}${execi 130000 cat /proc/cpuinfo | grep 'model name' | cut -c 24-51 | uniq}

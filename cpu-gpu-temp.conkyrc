@@ -60,7 +60,7 @@ color1 5D7B86 ###Maia Color 2###
 # Code #
 ########
 own_window_colour 000000
-gap_x 142
+gap_x 185
 gap_y 10
 TEXT
 ${alignc}${color}${font Bauhaus:size=13}${voffset}CPU temp: ${color1}${hwmon 2 temp 1}${hwmon 1 temp 1}${font DejaVu Sans:size=13}${voffset -4}°${font Bauhaus:size=13}C

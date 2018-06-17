@@ -28,7 +28,7 @@ own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 border_inner_margin 0
 border_outer_margin 0
  
-minimum_size 0 0
+minimum_size 270 0
 maximum_width 300
 
 ############
@@ -60,7 +60,7 @@ color1 5D7B86 ###Maia Color 2###
 # Code #
 ########
 own_window_colour 000000
-gap_x 85
+gap_x 116
 gap_y -190
 TEXT
 #${font Bauhaus:size=13}${alignc}Signal: ${color1}${wireless_link_qual eno1}%${color} 
