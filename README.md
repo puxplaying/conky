@@ -2,9 +2,6 @@
 Desktop
 ![alt text](https://github.com/puxplaying/conky/blob/master/conky.png)
 
-Laptop
-![alt text](https://github.com/puxplaying/conky/blob/master/conky2.png)
-
     Chronological setup:
     
               1. 001-clock.conkyrc
