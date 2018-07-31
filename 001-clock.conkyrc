@@ -62,8 +62,9 @@ color1 5D7B86 ###Maia Color 2###
 ########
 own_window_colour 000000
 gap_x 180
-gap_y 55
+gap_y 35
 TEXT
+${image 2.png -p 30,95 -s 160x25}
 ${voffset }${offset 20}${font Bauhaus:size=70} ${time %H}${color1}
 ${voffset }${offset 70}${font Bauhaus:size=70}${time %M}${color1}
 ${voffset -161}${offset 35}${font Bauhaus:size=16} ${time %A} ${color}${voffset }${offset }${time %d %b }

@@ -67,4 +67,5 @@ ${alignc}${color}${font Bauhaus:size=13}${voffset}CPU temp: ${color1}${hwmon 2 t
 #${color}${font Bauhaus:size=13}${alignr}  Fan: ${color1}${hwmon 2 fan 2}${hwmon 3 fan 2} RPM${color}
 ${alignc}${color}${font Bauhaus:size=13}${voffset}GPU temp: ${color1}${execi 10 nvidia-smi -q -d TEMPERATURE | awk '/GPU Current Temp/ {print $5}'}${font DejaVu Sans:size=13}${voffset -4}°${font Bauhaus:size=13}C 
 #${color}${offset 5}${font Bauhaus:size=13}${alignr}Fan: ${color1}${execi 10 nvidia-settings -tq [fan:0]/GPUCurrentFanSpeed}%${color}
-${color1}${voffset -5}$hr
+#${color1}${voffset -5}$hr
+${image 2.png -p 0,35 -s 130x20}

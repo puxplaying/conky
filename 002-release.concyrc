@@ -61,9 +61,11 @@ color1 5D7B86 ###Maia Color 2###
 ########
 own_window_colour 000000
 gap_x 100
-gap_y 220
+gap_y 230
 TEXT
 ${voffset -20}${color FFFFFF}${font DejaVu Sans Mono:size=2}${execi 130000 screenfetch -L -N  | sed 's/^/\t/' | sed 's/ *$//'}${color}
-${color}${font Bauhaus:size=25}${voffset -50}${offset 90}${execi 130000 lsb_release -d | cut -f 2| tr "[:upper:]" "[:lower:]"}${color}
+${color}${font Bauhaus:size=25}${voffset -58}${offset 90}${execi 130000 lsb_release -d | cut -f 2| tr "[:upper:]" "[:lower:]"}${color}
 ${font Bauhaus:size=10}${voffset -10}${offset 80}Edition: ${color1}${font Bauhaus:size=10}${execi 130000 awk -F= '/ID=/{printf $2" "} /RELEASE=/{printf $2" "} /NAME=/{print $2}' /etc/lsb-release}
-${color1}${voffset }$hr
+#${color1}${voffset }$hr
+${image 4.png -p 60,15 -s 240x20}
+${image 2.png -p 0,45 -s 300x20}

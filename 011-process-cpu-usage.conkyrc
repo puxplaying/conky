@@ -71,4 +71,5 @@ ${color1}${top name 3}${alignr}${top cpu 3}
 ${color1}${top name 4}${alignr}${top cpu 4}
 #${color1}${top name 5}${alignr}${top cpu 5}
 #${color1}${top name 6}${alignr}${top cpu 6}
-${color1}${voffset -5}$hr
+#${color1}${voffset -5}$hr
+${image 2.png -p 0,105 -s 180x20}

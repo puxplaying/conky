@@ -70,4 +70,4 @@ ${upspeedgraph eno1 18,210 00C6A2 00C6A2}${color}
 ${voffset 10}${font PizzaDude Bullets:size=13}U ${font Bauhaus:size=13} Download: ${color1}${downspeed eno1}${color}
 ${offset 40}Total Received: ${color1}${totaldown eno1}${color}
 ${downspeedgraph eno1 18,200 00C6A2 00C6A2}
-
+${image 2.png -p 0,125 -s 240x20}

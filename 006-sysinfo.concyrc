@@ -68,4 +68,5 @@ Uptime: ${color1}$uptime_short${color}
 # Power: ${color1}${battery_percent BAT0}%${color}
 LOCAL IP: ${color1}${addr eno1}${color}
 #Public IP: ${color1}${execi 3600 wget -q -O - checkip.dyndns.org | sed -e 's/[^[:digit:]\|.]//g'}${color}
-${color1}${voffset -5}$hr
+#${color1}${voffset -5}$hr
+${image 2.png -p 0,50 -s 200x20}

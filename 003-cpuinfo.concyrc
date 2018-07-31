@@ -61,8 +61,9 @@ color1 5D7B86 ###Maia Color 2###
 ########
 own_window_colour 000000
 gap_x 106
-gap_y 295
+gap_y 300
 TEXT
 ${font Bauhaus:size=13} ${color }${execi 130000 cat /proc/cpuinfo | grep 'model name' | cut -c 14-19 | uniq}${execi 130000 cat /proc/cpuinfo | grep 'model name' | cut -c 24-51 | uniq}
 ${alignc}${machine}${color1} @ $freq(MHz)${color}
-${color1}${voffset -5}$hr
+#${color1}${voffset -5}$hr
+${image 2.png -p 0,30 -s 300x20}

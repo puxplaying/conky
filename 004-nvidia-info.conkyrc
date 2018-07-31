@@ -61,8 +61,9 @@ color1 5D7B86 ###Maia Color 2###
 ########
 own_window_colour 000000
 gap_x 120
-gap_y 170
+gap_y 165
 TEXT
 ${alignc}${voffset 5}${color}${font Bauhaus:size=13}Nvidia ${execi 130000 nvidia-settings -q gpus | grep '0] (' | cut -d '(' -f 2,2 | sed -e 's/.\{1\}$//'} 
 ${alignc}${offset }Nvidia Driver ${color1}${execi 130000 nvidia-settings -q NvidiaDriverVersion -t | grep -m 1 ""}${color1} @ ${nvidia gpufreq}(MHz)
-${color1}${voffset -5}$hr
+#${color1}${voffset -5}$hr
+${image 2.png -p 0,35 -s 260x20}

@@ -64,4 +64,5 @@ gap_x 136
 gap_y 125
 TEXT
 ${alignc}${color}${offset }${voffset 5}${font Webdings:size=14}d ${font Bauhaus:size=13}${color1}Updates ${color}${execi 130000 cat /etc/pacman-mirrors.conf | grep -i "Branch =" | sed -E "s/(# )*Branch = //g"} ${color1}Branch:${offset 10}${color}${execi 1800 checkupdates | wc -l}
-${color1}${voffset -5}$hr
+#${color1}${voffset -5}$hr
+${image 2.png -p 0,20 -s 230x20}

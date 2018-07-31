@@ -67,4 +67,5 @@ ${font Bauhaus:size=13}VRAM: ${color1}${exec nvidia-smi --query-gpu=memory.used 
 RAM: ${color1}$mem / $memmax$alignr${color 00C6A2}${membar 10,60}${color}
 Swap: ${color1}${swap}/ ${swapfree}${color}$alignr${color 00C6A2}${swapbar 10,60 }${color}
 CPU: ${color1}${cpu cpu0}%${color}${alignr}${color 00C6A2}${cpugraph 18,200 00C6A2 00C6A2}${color}
-${color1}${voffset }$hr
+#${color1}${voffset }$hr
+${image 2.png -p 0,75 -s 300x20}
