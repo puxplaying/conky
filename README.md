@@ -1,5 +1,10 @@
 # Modular Conky for use with Conky-Manager
-Desktop
+
+https://github.com/teejee2008/conky-manager
+
+http://www.teejeetech.in/p/conky-manager.html
+
+
 ![alt text](https://github.com/puxplaying/conky/blob/master/conky.png)
 
     Chronological setup:
