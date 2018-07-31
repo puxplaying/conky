@@ -1,0 +1,70 @@
+alignment middle_right
+background yes
+update_interval 1
+ 
+cpu_avg_samples 2
+net_avg_samples 2
+ 
+override_utf8_locale yes
+ 
+double_buffer yes
+no_buffers yes
+ 
+#text_buffer_size 10240
+imlib_cache_size 0
+
+###########
+# Windows #
+###########
+own_window_class Conky
+own_window yes
+own_window_type normal
+own_window_argb_visual yes
+own_window_argb_value 0
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+ 
+ 
+border_inner_margin 0
+border_outer_margin 0
+ 
+minimum_size 300 0
+maximum_width 300
+
+############
+# Graphics #
+############
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+ 
+########
+# Text #
+########
+use_xft yes
+xftalpha 0.8
+ 
+uppercase no
+ 
+default_color 16a085 ###Maia Color 2###
+color1 5D7B86 ###Maia Color 2###
+
+#default_color 00C6A2 ###Maia Color###
+#color1 222B30 ###Maia Color###
+
+#default_color F00CA0 ###Original###
+#color1 0CACF0 ###Original###
+
+########
+# Code #
+########
+own_window_colour 000000
+gap_x 100
+gap_y -70
+TEXT
+${font Bauhaus:size=13}VRAM: ${color1}${exec nvidia-smi --query-gpu=memory.used --format=csv,noheader} / ${exec nvidia-smi --query-gpu=memory.total --format=csv,noheader}${color}
+RAM: ${color1}$mem / $memmax$alignr${color 00C6A2}${membar 10,60}${color}
+Swap: ${color1}${swap}/ ${swapfree}${color}$alignr${color 00C6A2}${swapbar 10,60 }${color}
+CPU: ${color1}${cpu cpu0}%${color}${alignr}${color 00C6A2}${cpugraph 18,200 00C6A2 00C6A2}${color}
+${color1}${voffset }$hr
