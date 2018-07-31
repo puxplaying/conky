@@ -7,18 +7,18 @@ Laptop
 
     Chronological setup:
     
-              1. clock.conkyrc
-              2. release.conkyrc
-              3. cpuinfo.conkyrc
-              4. nvidia-info.conkyrc
-              5. updates.conkyrc
-              6. sysinfo.conkyrc
-              7. cpu-gpu-temp.conkyrc
-              8. cpu-ram-info.conkyrc
-              9. network.conkyrc
-              10. disk-info.conkyrc
-              11. process-cpu-usage.conkyrc
-              12. process-ram-usage.conkyrc
+              1. 001-clock.conkyrc
+              2. 002-release.conkyrc
+              3. 003-cpuinfo.conkyrc
+              4. 004-nvidia-info.conkyrc
+              5. 005-updates.conkyrc
+              6. 006-sysinfo.conkyrc
+              7. 007-cpu-gpu-temp.conkyrc
+              8. 008-cpu-ram-info.conkyrc
+              9. 009-network.conkyrc
+              10. 010-disk-info.conkyrc
+              11. 011-process-cpu-usage.conkyrc
+              12. 012-process-ram-usage.conkyrc
 
 Requires screenfetch for release.conkyrc
 
