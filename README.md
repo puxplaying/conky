@@ -4,6 +4,8 @@ https://github.com/teejee2008/conky-manager
 
 http://www.teejeetech.in/p/conky-manager.html
 
+Wallpaper from Karl Schneider https://www.deviantart.com/karl-schneider/art/Tux-Mesh-RGB-634520299
+
 
 ![alt text](https://github.com/puxplaying/conky/blob/master/conky.png)
 
